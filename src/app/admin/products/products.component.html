@@ -1,0 +1,17 @@
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th *ngFor="let title of titles">{{title}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let product of products">
+            <td>{{product.id}}</td>
+            <td>{{product.name}}</td>
+            <td>{{product.detail}}</td>
+            <td>{{product.price}}</td>
+            <td>{{product.stock}}</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
